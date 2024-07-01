@@ -36,7 +36,7 @@ git add .
 git commit -m 'Initial commit.'
 ```
 
-# Procfile
+# `Procfile`
 - Define the Piku "workers." You can read more about them [here](https://piku.github.io/configuration/procfile.html).
 ```
 # The php worker allows us to interpret PHP scripts.
@@ -190,7 +190,7 @@ php artisan up
 ```shell
 # deploy.sh must be executable.
 chmod +x deploy.sh
-git add .
+git add Procfile ENV nginx.conf php.ini deploy.sh
 git commit -m 'Piku configuration.'
 ```
 
