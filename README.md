@@ -1,10 +1,6 @@
 
 This README is a tutorial, with the resulting code checked in for you to peruse.
 
-We will not a use a database today, as that would require either:
-- Another server, or
-- Manual configuration on this server
-
 # Prerequisites
 
 Your machine, For Laravel:
