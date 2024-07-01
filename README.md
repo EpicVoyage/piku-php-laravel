@@ -224,6 +224,12 @@ ssh piku@yourserver.net destroy laravel
 ```
 
 # Debugging
+#### Internal Server Error: No application encryption key has been specified.
+
+You didn't read everything above, did you? Laravel requires you to generate your own 32-character `APP_KEY`.
+
+You are also discouraged from saving this into your Git repo. For this quick demo, you can change the value in the `ENV` file.
+
 #### Exposed Features
 Piku exposes several features (like destroy) for managing your apps. You can request a list of supported options on your server via:
 
