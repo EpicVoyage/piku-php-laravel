@@ -246,4 +246,5 @@ Your application is deployed under `/home/piku/.piku`, and is split into this st
 - `uwsgi` - application server configuration.
 - `uwsgi-available` - individual app configurations, if any.
 - `uwsgi-enabled` - The enabled app configurations, if any.
+
 Most of the time this is all handled automatically for you, but if you end up with a more advanced configuration then this structure may be helpful in debugging.
